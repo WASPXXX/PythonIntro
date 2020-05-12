@@ -11,6 +11,6 @@ print("aaaaaaa", end='')
 print("bõää", end='')
 print("\n")
 
-# convert to string instead of the way it is
+# converted to string instead of the way it is
 x = input('type a number -->')
 print(x * 2)
