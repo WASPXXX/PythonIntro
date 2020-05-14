@@ -20,5 +20,6 @@ print("----> ", repr(y))
 y.write(x)
 
 print("Alright, all done.")
+print("abc\rddd")
 
 y.close()
