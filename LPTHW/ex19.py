@@ -25,9 +25,10 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 
 print("Now you decide the numbers.")
-ur_cheese = input("How many cheeses? -->")
-ur_cracker = input("How many crackers? -->")
-
+# ur_cheese = input("How many cheeses? -->")
+# ur_cracker = input("How many crackers? -->")
+ur_cheese = int(input("How many cheeses? -->"))
+ur_cracker = int(input("How many crackers? -->"))
 
 print("So now:")
 cheese_and_crackers(ur_cheese, ur_cracker)
